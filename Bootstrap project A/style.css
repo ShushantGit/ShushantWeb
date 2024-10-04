@@ -1,0 +1,45 @@
+
+#header{
+    background-color: black;
+    color: white;
+    padding-top: 3px;
+}
+
+
+#navbar{
+    gap: 3rem;
+    list-style: none;   
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.menuhover:hover{
+    color: rgb(218, 218, 218);
+    font-weight:700;
+}
+
+#banner{
+    background: url("./images/banner.jpg") no-repeat 0 0;
+    background-size: cover;
+    height: 50vh;
+
+}
+#firstlead{
+    width: 50%;
+}
+
+#banner2{
+    background: url('./images/testimonial-bg.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+   
+}
+
+#footer{
+    background-color: black;
+    color: rgb(227, 227, 227);
+}
